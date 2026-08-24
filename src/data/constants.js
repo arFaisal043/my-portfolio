@@ -19,6 +19,17 @@ export const PROJECTS = [
     bg: "#150f2a",
     icon: "📰",
   },
+  {
+    category: "fullstack",
+    title: "FixItNow - Home Services Marketplace",
+    desc: "FixItNow is a robust, highly modular platform built for a home services marketplace. It provides the core infrastructure connecting Customers with professional Technicians for various household services (plumbing, electrical work, cleaning, etc.).",
+    tags: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    github: "https://github.com/arFaisal043/FixItNow-frontend",
+    githubBackend: "https://github.com/arFaisal043/fixitnow-backend",
+    demo: "https://fix-it-now-frontend-flame.vercel.app",
+    bg: "#0c2236",
+    icon: "🛠️",
+  },
 
   // Backend
   {

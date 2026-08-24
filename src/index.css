@@ -87,6 +87,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -95,6 +96,7 @@ body {
   color: var(--text-primary);
   transition: background 0.3s ease, color 0.3s ease;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .mono {
@@ -513,7 +515,6 @@ body {
 .hero-centered .stats-strip {
   justify-content: center;
   border-top: none;
-  border-bottom: 1px solid var(--border-subtle);
   padding-bottom: 32px;
 }
 
@@ -2068,7 +2069,6 @@ body {
   /* hero */
   .hero {
     padding-top: 70px;
-    min-height: auto;
     padding-bottom: 56px;
   }
 
@@ -2078,7 +2078,7 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(3rem, 7vw, 4.5rem);
+    font-size: clamp(3.5rem, 8.5vw, 5rem);
   }
 
   .stats-strip {
@@ -2203,7 +2203,7 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(2.5rem, 8vw, 3.5rem);
+    font-size: clamp(2.8rem, 10vw, 3.8rem);
     line-height: 1.1;
     margin-bottom: 0;
   }
@@ -2522,7 +2522,7 @@ body {
 /* ── SMALL MOBILE (≤380px) ── */
 @media (max-width: 380px) {
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 
   .hero-ctas .shiny-cta {
