@@ -61,8 +61,8 @@ export default function Hero() {
             ))}
 
           </h1>
-          <p className="hero-sub reveal delay-3">
-            CS student at Southeast University, Dhaka. Passionate about backend development and software engineering. I enjoy designing APIs and building scalable web applications.
+          <p className="hero-sub reveal delay-3 mono" style={{ fontSize: "1rem" }}>
+            <span style={{ color: "var(--btn-blue)" }}>{">"}</span> CS student at Southeast University, Dhaka. Passionate about backend development and software engineering. I enjoy designing APIs and building scalable web applications.
           </p>
           <div className="hero-ctas reveal delay-4">
             <ShinyButton href="#projects">View Projects →</ShinyButton>
