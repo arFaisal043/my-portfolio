@@ -244,6 +244,14 @@ export const PROJECTS = [
 
 export const ACHIEVEMENTS = [
   {
+    title: "Full Stack Web Development with JavaScript",
+    org: "Ostad",
+    date: "2026",
+    link: "https://ostad.app/share/certificate/c46897-abdur-rahman-faisal",
+    icon: "🎓",
+    desc: "Earned a professional certification in Full Stack Web Development with JavaScript (MERN) from Ostad (Batch 13). Successfully demonstrated practical proficiency across assignments (91.7%), quizzes (80%), and live assessments (96%) and coding test (69.7). Validates strong hands-on skills in end-to-end web application development using MongoDB, Express.js, React, and Node.js.",
+  },
+  {
     title: "Backend Development Course Certificate",
     org: "PW Skills",
     date: "2024",
