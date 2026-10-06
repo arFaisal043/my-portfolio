@@ -307,14 +307,17 @@ body {
 
 .nav-logo {
   font-family: 'JetBrains Mono', monospace;
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--btn-blue);
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  letter-spacing: -0.05em;
+  text-decoration: none;
 }
 
 .nav-logo span {
-  color: var(--text-muted);
+  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
